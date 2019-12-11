@@ -14,12 +14,10 @@ import login from './images/login.png';
 import missionPage from './images/mission-page.png';
 import mission from './images/mission.png';
 import salary from './images/salary-negotiation.png';
-import picture from './images/picture.png';
 import signup from './images/signup.png';
 import expandedJobs from './images/exanded-jobs.png';
 import report from './pdf/Project-Report-3.pdf';
 import overview from './pdf/CIS472-ProjectOverview.pdf';
-import screenshot from './images/screenshot.jpg';
 import "./App.css";
 
 class App extends Component{
