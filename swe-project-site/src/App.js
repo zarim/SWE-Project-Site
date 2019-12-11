@@ -16,7 +16,9 @@ import mission from './images/mission.png';
 import salary from './images/salary-negotiation.png';
 import picture from './images/picture.png';
 import signup from './images/signup.png';
+import expandedJobs from './images/exanded-jobs.png';
 import report from './pdf/Project-Report-3.pdf';
+import overview from './pdf/CIS472-ProjectOverview.pdf';
 import screenshot from './images/screenshot.jpg';
 import "./App.css";
 
@@ -34,11 +36,17 @@ class App extends Component{
         </div>
         <div className="section-container" id="about">
             <h1 className="text" id="section-title">About</h1>
-            <h2 className="text" id="section-subtitle">Customer Problem Statement</h2>
-            <h3 className="text" id="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-            <h2 className="text" id="section-subtitle">System Requirements</h2>
-            <h3 className="text" id="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+            <h2 className="text" id="section-subtitle">Project Description</h2>
+            <p className="text" id="section-content">For this semester, you are to create a jobs portal for employers and jobseekers as a Java app. This job
+            board must contain search filters, job functionalities and suitable interfacing with both sides of the
+            employment spectrum: employers and jobseekers. Examples of existing jobs portals include: Indeed,
+            Glassdoor, Monster, Dice, Blendoor. Each may be considered as a model for the team. Existing
+            desktop-based, web-based or mobile-friendly based templates can not be used in the construction of
+            this software. <b>-</b> From project overview, linked below.</p>
+            <h2 className="text" id="section-subtitle">Company Mission</h2>
+            <p className="text" id="section-content">Glass Ceiling and Company was founded in 2019 by five seniors at Spelman College who wanted to change the job seeking process as it pertains to black women. The Glass Ceiling Career portal seeks to spread further awareness and educate companies and individuals on the impact of the -isms (racism, sexism, ableism, etc.) while also providing an environment to combat the lack of accessibility, unconscious bias, and lack of transparency when it comes to diversity and inclusion. The mission of Glass Ceiling Company is to provide a job seeking website that caters to the needs of black women; embodying the mantra of FUBU - For Black Women, By Black Women, but accessible to everyone.</p>
             <h2 className="text" id="section-subtitle"><a href={report} target="_blank">Link to Project Report</a></h2>
+            <h2 className="text" id="section-subtitle"><a href={overview} target="_blank">Link to Project Overview</a></h2>
         </div>
         <div className="team" id="team">
             <h1 className="text" id="section-title">Meet the Team</h1>
@@ -110,22 +118,27 @@ class App extends Component{
         <div className="section-container" id="results">
             <h1 className="text" id="section-title">Results</h1>
             <div className="row1">
-                <h3 className="text" id="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+                <p className="text" id="section-content">For this project we were able to complete most of our goals. Users of our site are able to create accounts and profiles as both candidates and companies. Candidates are able to search and filter for jobs, and see expanded results. Companies are able to create company profiles, add job roles, and see candidate results. Future work for this project would be to add the ability to favorite jobs/candidates, apply for jobs, contact candidates, and upload resumes and images.</p>
             </div>
             <div className="row1">
                 <img src={missionPage} id="screenshot" alt="screenshot placeholder"/>
                 <img src={mission} id="screenshot" alt="screenshot placeholder"/>
-                <img src={blog} id="screenshot" alt="screenshot placeholder"/>
             </div>
             <div className="row1">
                 <img src={salary} id="screenshot" alt="screenshot placeholder"/>
-                <img src={job} id="screenshot" alt="screenshot placeholder"/>
-                <img src={expanded} id="screenshot" alt="screenshot placeholder"/>
+                <img src={blog} id="screenshot" alt="screenshot placeholder"/>
+            </div>
+            <div className="row1">
+                <img src={signup} id="screenshot" alt="screenshot placeholder"/>
+                <img src={login} id="screenshot" alt="screenshot placeholder"/>
             </div>
             <div className="row1">
                 <img src={candidate} id="screenshot" alt="screenshot placeholder"/>
-                <img src={login} id="screenshot" alt="screenshot placeholder"/>
-                <img src={signup} id="screenshot" alt="screenshot placeholder"/>
+                <img src={expanded} id="screenshot" alt="screenshot placeholder"/>
+            </div>
+            <div className="row1">
+                <img src={job} id="screenshot" alt="screenshot placeholder"/>
+                <img src={expandedJobs} id="screenshot" alt="screenshot placeholder"/>
             </div>
             <div className="column">
                 <h1 className="text" id="section-subtitle"><a href="https://glassceilingswe.firebaseapp.com/index.html" target="_blank">Link to Project Site</a></h1>
