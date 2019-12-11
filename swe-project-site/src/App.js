@@ -2,6 +2,10 @@ import React, { Component} from "react";
 // import ScrollUpButton from "react-scroll-up-button";
 import logo from './images/placeholder.png';
 import zari from './images/zari.JPG';
+import jaida from 'realjaida2.jpg';
+import lelia from 'reallelia2.jpg';
+import margie from 'realMargie.jpg';
+import ulunma from 'realUlunma.JPG';
 import picture from './images/picture.png';
 import screenshot from './images/screenshot.jpg';
 import "./App.css";
@@ -32,14 +36,14 @@ class App extends Component{
                 <div className="left">
                     <h2 className="text" id="name-text">Ulunma Egwim</h2>
                     <div className="circle-cropper">
-                        <img src={picture} id="profile-pic" alt="placeholder picture"/>
+                        <img src={ulunma} id="profile-pic" alt="placeholder picture"/>
                     </div>
                     <h3 className="text" id="role-text">Backend</h3>
                 </div>
                 <div className="right">
                     <h2 className="text" id="name-text">Lelia Hampton</h2>
                     <div className="circle-cropper">
-                        <img src={picture} id="profile-pic" alt="placeholder picture"/>
+                        <img src={lelia} id="profile-pic" alt="placeholder picture"/>
                     </div>
                     <h3 className="text" id="role-text">Backend | Merger</h3>
                 </div>
@@ -47,7 +51,7 @@ class App extends Component{
             <div className="row2">
                 <h2 className="text" id="name-text">Jaida Langham</h2>
                 <div className="circle-cropper">
-                    <img src={picture} id="profile-pic" alt="placeholder picture"/>
+                    <img src={jaida} id="profile-pic" alt="placeholder picture"/>
                 </div>
                 <h3 className="text" id="role-text">Functional Supervisor | Frontend</h3>
             </div>
@@ -62,7 +66,7 @@ class App extends Component{
                 <div className="right">
                     <h2 className="text" id="name-text">Margie Ruffin</h2>
                     <div className="circle-cropper">
-                        <img src={picture} id="profile-pic" alt="placeholder picture"/>
+                        <img src={margie} id="profile-pic" alt="placeholder picture"/>
                     </div>
                     <h3 className="text" id="role-text">Backend</h3>
                 </div>
