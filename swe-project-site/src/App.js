@@ -1,7 +1,7 @@
 import React, { Component} from "react";
 import ScrollUpButton from "react-scroll-up-button";
 import logo from './images/placeholder.png';
-import zari from './images/zari.JPG';
+import zari from './images/zari3.JPG';
 import jaida from './images/realjaida2.jpg';
 import lelia from './images/reallelia2.jpg';
 import margie from './images/realMargie.jpg';
@@ -40,7 +40,7 @@ class App extends Component{
             employment spectrum: employers and jobseekers. Examples of existing jobs portals include: Indeed,
             Glassdoor, Monster, Dice, Blendoor. Each may be considered as a model for the team. Existing
             desktop-based, web-based or mobile-friendly based templates can not be used in the construction of
-            this software. <b>-</b> From project overview, linked below.</p>
+            this software. <b>--</b> From project overview, linked below.</p>
             <h2 className="text" id="section-subtitle">Company Mission</h2>
             <p className="text" id="section-content">Glass Ceiling and Company was founded in 2019 by five seniors at Spelman College who wanted to change the job seeking process as it pertains to black women. The Glass Ceiling Career portal seeks to spread further awareness and educate companies and individuals on the impact of the -isms (racism, sexism, ableism, etc.) while also providing an environment to combat the lack of accessibility, unconscious bias, and lack of transparency when it comes to diversity and inclusion. The mission of Glass Ceiling Company is to provide a job seeking website that caters to the needs of black women; embodying the mantra of FUBU - For Black Women, By Black Women, but accessible to everyone.</p>
             <h2 className="text" id="section-subtitle"><a href={report} target="_blank">Link to Project Report</a></h2>
@@ -52,14 +52,14 @@ class App extends Component{
                 <div className="left">
                     <h2 className="text" id="name-text">Ulunma Egwim</h2>
                     <div className="circle-cropper">
-                        <img src={ulunma} id="profile-pic" alt="placeholder picture"/>
+                        <a id="profile-pic" href="https://www.linkedin.com/in/ulunma-egwim/" target="_blank"><img src={ulunma} id="profile-pic" alt="placeholder picture"/></a>
                     </div>
                     <h3 className="text" id="role-text">Backend</h3>
                 </div>
                 <div className="right">
                     <h2 className="text" id="name-text">Lelia Hampton</h2>
                     <div className="circle-cropper">
-                        <img src={lelia} id="profile-pic" alt="placeholder picture"/>
+                        <a id="profile-pic" href="https://www.linkedin.com/in/lelia-hampton/" target="_blank"><img src={lelia} id="profile-pic" alt="placeholder picture"/></a>
                     </div>
                     <h3 className="text" id="role-text">Backend | Merger</h3>
                 </div>
@@ -67,7 +67,7 @@ class App extends Component{
             <div className="row2">
                 <h2 className="text" id="name-text">Jaida Langham</h2>
                 <div className="circle-cropper">
-                    <img src={jaida} id="profile-pic" alt="placeholder picture"/>
+                    <a id="profile-pic" href="https://www.linkedin.com/in/jnlangham/" target="_blank"><img src={jaida} id="profile-pic" alt="placeholder picture"/></a>
                 </div>
                 <h3 className="text" id="role-text">Functional Supervisor | Frontend</h3>
             </div>
@@ -75,14 +75,14 @@ class App extends Component{
                 <div className="left">
                     <h2 className="text" id="name-text">Zari McFadden</h2>
                     <div className="circle-cropper">
-                        <img src={zari} id="profile-pic" alt="zari"/>
+                        <a id="profile-pic" href="https://www.linkedin.com/in/zari-mcfadden-45262978/" target="_blank"><img src={zari} id="profile-pic" alt="zari"/></a>
                     </div>
                     <h3 className="text" id="role-text">Technical Superviser | Frontend | Merger</h3>
                 </div>
                 <div className="right">
                     <h2 className="text" id="name-text">Margie Ruffin</h2>
                     <div className="circle-cropper">
-                        <img src={margie} id="profile-pic" alt="placeholder picture"/>
+                        <a id="profile-pic" href="https://www.linkedin.com/in/margie-ruffin-sc2020/" target="_blank"><img src={margie} id="profile-pic" alt="placeholder picture"/></a>
                     </div>
                     <h3 className="text" id="role-text">Backend</h3>
                 </div>
