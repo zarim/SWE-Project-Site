@@ -117,28 +117,29 @@ class App extends Component{
         </div>
         <div className="section-container" id="results">
             <h1 className="text" id="section-title">Results</h1>
-            <div className="row1">
+            <div className="col1">
                 <p className="text" id="section-content">For this project we were able to complete most of our goals. Users of our site are able to create accounts and profiles as both candidates and companies. Candidates are able to search and filter for jobs, and see expanded results. Companies are able to create company profiles, add job roles, and see candidate results. Future work for this project would be to add the ability to favorite jobs/candidates, apply for jobs, contact candidates, and upload resumes and images.</p>
+                <p className="text" id="center">Click to expand each image.</p>
             </div>
             <div className="row1">
-                <img src={missionPage} id="screenshot" alt="screenshot placeholder"/>
-                <img src={mission} id="screenshot" alt="screenshot placeholder"/>
+                <a id="screenshot" href={missionPage} target="_blank"><img src={missionPage} className="screenshot" id="screenshot" alt="screenshot placeholder"/></a>
+                <a id="screenshot" href={mission} target="_blank"><img src={mission} className="screenshot" id="screenshot" alt="screenshot placeholder"/></a>
             </div>
             <div className="row1">
-                <img src={salary} id="screenshot" alt="screenshot placeholder"/>
-                <img src={blog} id="screenshot" alt="screenshot placeholder"/>
+                <a id="screenshot" href={salary} target="_blank"><img src={salary} className="screenshot" id="screenshot" alt="screenshot placeholder"/></a>
+                <a id="screenshot" href={blog} target="_blank"><img src={blog} className="screenshot" id="screenshot" alt="screenshot placeholder"/></a>
             </div>
             <div className="row1">
-                <img src={signup} id="screenshot" alt="screenshot placeholder"/>
-                <img src={login} id="screenshot" alt="screenshot placeholder"/>
+                <a id="screenshot" href={signup} target="_blank"><img src={signup} className="screenshot" id="screenshot" alt="screenshot placeholder"/></a>
+                <a id="screenshot" href={login} target="_blank"><img src={login} className="screenshot" id="screenshot" alt="screenshot placeholder"/></a>
             </div>
             <div className="row1">
-                <img src={candidate} id="screenshot" alt="screenshot placeholder"/>
-                <img src={expanded} id="screenshot" alt="screenshot placeholder"/>
+                <a id="screenshot" href={candidate} target="_blank"><img src={candidate} className="screenshot" id="screenshot" alt="screenshot placeholder"/></a>
+                <a id="screenshot" href={expanded} target="_blank"><img src={expanded} className="screenshot" id="screenshot" alt="screenshot placeholder"/></a>
             </div>
             <div className="row1">
-                <img src={job} id="screenshot" alt="screenshot placeholder"/>
-                <img src={expandedJobs} id="screenshot" alt="screenshot placeholder"/>
+                <a id="screenshot" href={job} target="_blank"><img src={job} className="screenshot" id="screenshot" alt="screenshot placeholder"/></a>
+                <a id="screenshot" href={expandedJobs} target="_blank"><img src={expandedJobs} className="screenshot" id="screenshot" alt="screenshot placeholder"/></a>
             </div>
             <div className="column">
                 <h1 className="text" id="section-subtitle"><a href="https://glassceilingswe.firebaseapp.com/index.html" target="_blank">Link to Project Site</a></h1>
