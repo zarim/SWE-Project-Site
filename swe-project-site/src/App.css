@@ -67,6 +67,7 @@ svg {
 }
 
 #section-content {
+  text-align: justify;
   font-size: 25px;
 }
 
@@ -85,12 +86,12 @@ ul {
 
 ul.complete li:before {
   content: '✓';
-  margin: 3%;
+  margin: 3% auto;
 }
 
 ul.not-complete li:before {
   content: 'x';
-  margin: 3%;
+  margin: 3% auto;
 }
 
 .section-container {
@@ -143,6 +144,11 @@ ul.not-complete li:before {
   flex-direction: column;
   float: right;
   width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Mobile Styles */
