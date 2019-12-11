@@ -1,5 +1,5 @@
 import React, { Component} from "react";
-// import ScrollUpButton from "react-scroll-up-button";
+import ScrollUpButton from "react-scroll-up-button";
 import logo from './images/placeholder.png';
 import zari from './images/zari.JPG';
 import jaida from './images/realjaida2.jpg';
@@ -26,7 +26,7 @@ class App extends Component{
   render(){
     return(
       <div className="App">
-        {/* <ScrollUpButton style={{ backgroundColor: "transparent", height: "40px" }} className="up"/> */}
+        <ScrollUpButton style={{ backgroundColor: "transparent", height: "40px" }} className="up"/>
         <div className="menu">
             <h3 id="menu-item"><a href="#about">About</a></h3>
             <h3 id="menu-item"><a href="#team">Team</a></h3>
